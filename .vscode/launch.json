@@ -2,6 +2,14 @@
     "version": "0.2.0",
     "configurations": [
       {
+        "type": "autojs",
+        "request": "launch",
+        "main": "main.js",
+        "stopOnEntry": true,
+        "device": "[google${defaultBuildTask}]",
+        "name": "[Auto.js Pro调试]使用最近设备"
+      },
+      {
         "name": "Run application",
         "type": "node",
         "request": "launch",
